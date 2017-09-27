@@ -22,7 +22,7 @@ class App extends React.Component {
 onAdoptPet = () => {}
 
   render() {
-		const appChildren = React.Children.map(this.props.children, child => {
+		React.Children.map(this.props.children, child => {
 			if (child === Filters) {       
 				return React.cloneElement(child, {
         filters: this.props.filters
