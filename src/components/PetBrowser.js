@@ -16,7 +16,7 @@ class PetBrowser extends React.Component {
     return (
       <div className="ui cards">
         <code>&lt;Pet /&gt;</code> &nbsp; components should go here
-		{this.props.pets.children}	
+		{this.props.pets.children}	<Pet />
 {childPets}	
 </div>
     );

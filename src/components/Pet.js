@@ -6,8 +6,8 @@ class Pet extends React.Component {
   // }
 
 	onAdoptPet = () => {
-	
-		
+
+
 	}
 
 //name, type, age and weight. Based on the pet's gender
